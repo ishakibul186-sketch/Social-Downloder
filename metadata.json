@@ -1,0 +1,5 @@
+{
+  "name": "Social Downloader",
+  "description": "A modern web app to download videos from popular social media platforms like Facebook, Instagram, and TikTok using a URL.",
+  "requestFramePermissions": []
+}
