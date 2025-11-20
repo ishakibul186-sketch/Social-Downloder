@@ -54,24 +54,3 @@ export const VideoResultCard: React.FC<VideoResultCardProps> = ({ data }) => {
     </div>
   );
 };
-
-// Add fade-in animation to tailwind config or a style tag if needed.
-// For simplicity, adding it directly in index.html is an option or using a plugin.
-// Let's assume a simple keyframe animation is available.
-const style = document.createElement('style');
-style.innerHTML = `
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .animate-fade-in {
-    animation: fadeIn 0.5s ease-out forwards;
-  }
-  .line-clamp-2 {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-  }
-`;
-document.head.appendChild(style);
